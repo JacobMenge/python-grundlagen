@@ -22,13 +22,13 @@ Die Verwendung des Datentyps Integer ermöglicht es uns, mit ganzen Zahlen zu ar
 - Darstellung ganzer Zahlen ohne Dezimalstellen
 - Beispiele: -5, 0, 42
 
-In diesem Beispiel wird der Wert 25 verwendet, aber du kannst den Wert der Variable "age" ändern und das Programm wird den neuen Wert anzeigen.
+In diesem Beispiel wird der Wert 25 verwendet, aber du kannst den Wert der Variable `age` ändern und das Programm wird den neuen Wert anzeigen.
 `````
 # Beispiel für Integer (int):
 age: int = 25
 print("Das Alter beträgt:", age)
 `````
-In diesem Codebeispiel wird der Datentyp Integer (ganze Zahl) in Python verwendet. Es wird eine Variable "age" erstellt und mit dem Wert 25 initialisiert. Die ": int" am Ende der Zeile gibt an, dass der Datentyp der Variable "age" ein Integer ist. Danach wird der Befehl "print()" verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Das Alter beträgt:" zusammen mit dem Wert der Variable "age" auf dem Bildschirm angezeigt. Der Wert von "age" wird dabei automatisch in die Nachricht eingefügt.
+In diesem Codebeispiel wird der Datentyp Integer (ganze Zahl) in Python verwendet. Es wird eine Variable `age` erstellt und mit dem Wert 25 initialisiert. Die ": int" am Ende der Zeile gibt an, dass der Datentyp der Variable `age` ein Integer ist. Danach wird der Befehl `print()` verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Das Alter beträgt:" zusammen mit dem Wert der Variable `age` auf dem Bildschirm angezeigt. Der Wert von "age" wird dabei automatisch in die Nachricht eingefügt.
 
 Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 "Das Alter beträgt: 25"
@@ -42,13 +42,13 @@ Die Verwendung des Datentyps Float ermöglicht es uns, mit Dezimalzahlen zu arbe
 - Darstellung von Zahlen mit Dezimalstellen
 - Beispiele: 3.14, -0.5, 1.0
 
-In diesem Beispiel wird der Wert 3.14 verwendet, aber du kannst den Wert der Variable "pi" ändern und das Programm wird den neuen Wert anzeigen.
+In diesem Beispiel wird der Wert 3.14 verwendet, aber du kannst den Wert der Variable `pi` ändern und das Programm wird den neuen Wert anzeigen.
 `````
 # Beispiel für Float (float):
 pi: float = 3.14
 print("Der Wert von Pi ist:", pi)
 `````
-In diesem Codebeispiel wird der Datentyp Float (Dezimalzahl) in Python verwendet. Es wird eine Variable "pi" erstellt und mit dem Wert 3.14 initialisiert. Die `: float` am Ende der Zeile gibt an, dass der Datentyp der Variable "pi" ein Float ist, also eine Dezimalzahl. Danach wird der Befehl "print()" verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Der Wert von Pi ist:" zusammen mit dem Wert der Variable "pi" auf dem Bildschirm angezeigt. Der Wert von "pi" wird dabei automatisch in die Nachricht eingefügt.
+In diesem Codebeispiel wird der Datentyp Float (Dezimalzahl) in Python verwendet. Es wird eine Variable `pi` erstellt und mit dem Wert 3.14 initialisiert. Die `: float` am Ende der Zeile gibt an, dass der Datentyp der Variable `pi` ein Float ist, also eine Dezimalzahl. Danach wird der Befehl `print()` verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Der Wert von Pi ist:" zusammen mit dem Wert der Variable `pi` auf dem Bildschirm angezeigt. Der Wert von `pi` wird dabei automatisch in die Nachricht eingefügt.
 
 Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 "Der Wert von Pi ist: 3.14"
@@ -67,7 +67,7 @@ Die Verwendung des Datentyps String ermöglicht es uns, mit Text oder Zeichenket
 name: str = "John Doe"
 print("Der Name ist:", name)
 `````
-In diesem Codebeispiel wird der Datentyp String (Zeichenkette) in Python verwendet. Es wird eine Variable "name" erstellt und mit dem Wert "John Doe" initialisiert. Die ": str" am Ende der Zeile gibt an, dass der Datentyp der Variable "name" ein String ist, also eine Zeichenkette. Danach wird der Befehl "print()" verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Der Name ist:" zusammen mit dem Wert der Variable "name" auf dem Bildschirm angezeigt. Der Wert von "name" wird dabei automatisch in die Nachricht eingefügt.
+In diesem Codebeispiel wird der Datentyp String (Zeichenkette) in Python verwendet. Es wird eine Variable `name` erstellt und mit dem Wert "John Doe" initialisiert. Die ": str" am Ende der Zeile gibt an, dass der Datentyp der Variable `name` ein String ist, also eine Zeichenkette. Danach wird der Befehl `print()` verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Der Name ist:" zusammen mit dem Wert der Variable `name` auf dem Bildschirm angezeigt. Der Wert von "name" wird dabei automatisch in die Nachricht eingefügt.
 
 Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 "Der Name ist: John Doe"
@@ -78,13 +78,13 @@ Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 - Darstellung von Wahrheitswerten (True oder False).
 - Beispiele: True, False
 
-Die Verwendung des Datentyps Boolean ermöglicht es uns, Wahrheitswerte in unseren Programmen zu verwenden. In diesem Beispiel wird der Wert True verwendet, um anzuzeigen, dass es regnet. Du kannst den Wert der Variable "is_raining" auf False setzen, um anzuzeigen, dass es nicht regnet, und das Programm wird den neuen Wert entsprechend anzeigen.
+Die Verwendung des Datentyps Boolean ermöglicht es uns, Wahrheitswerte in unseren Programmen zu verwenden. In diesem Beispiel wird der Wert True verwendet, um anzuzeigen, dass es regnet. Du kannst den Wert der Variable `is_raining` auf False setzen, um anzuzeigen, dass es nicht regnet, und das Programm wird den neuen Wert entsprechend anzeigen.
 `````
 # Beispiel für Boolean (bool):
 is_raining: bool = True
 print("Regnet es?", is_raining)
 `````
-In diesem Codebeispiel wird der Datentyp Boolean (Wahrheitswert) in Python verwendet. Es wird eine Variable "is_raining" erstellt und mit dem Wert True initialisiert. Die ": bool" am Ende der Zeile gibt an, dass der Datentyp der Variable "is_raining" ein Boolean ist, also entweder wahr (True) oder falsch (False). Danach wird der Befehl "print()" verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Frage "Regnet es?" zusammen mit dem Wert der Variable "is_raining" auf dem Bildschirm angezeigt. Der Wert von "is_raining" wird dabei automatisch in die Nachricht eingefügt.
+In diesem Codebeispiel wird der Datentyp Boolean (Wahrheitswert) in Python verwendet. Es wird eine Variable `is_raining` erstellt und mit dem Wert True initialisiert. Die `: bool` am Ende der Zeile gibt an, dass der Datentyp der Variable `is_raining` ein Boolean ist, also entweder wahr (True) oder falsch (False). Danach wird der Befehl `print()` verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Frage "Regnet es?" zusammen mit dem Wert der Variable `is_raining` auf dem Bildschirm angezeigt. Der Wert von `is_raining` wird dabei automatisch in die Nachricht eingefügt.
 
 Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 "Regnet es? True"
@@ -113,13 +113,13 @@ Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 - Ein spezieller Datentyp, der das Fehlen eines Wertes oder eine leere Variable darstellt
 - Beispiel: None
 
-Die Verwendung des Werts None ermöglicht es uns, anzugeben, dass eine Variable leer ist oder keinen bestimmten Wert enthält. In diesem Beispiel wird der Wert der Variable "value" explizit auf None gesetzt, aber du kannst den Wert ändern und das Programm wird den neuen Wert entsprechend anzeigen.
+Die Verwendung des Werts None ermöglicht es uns, anzugeben, dass eine Variable leer ist oder keinen bestimmten Wert enthält. In diesem Beispiel wird der Wert der Variable `value` explizit auf None gesetzt, aber du kannst den Wert ändern und das Programm wird den neuen Wert entsprechend anzeigen.
 `````
 # Beispiel für None:
 value: None = None
 print("Der Wert ist:", value)
 `````
-In diesem Codebeispiel wird der spezielle Wert None in Python verwendet. Es wird eine Variable "value" erstellt und mit dem Wert None initialisiert. None wird verwendet, um anzuzeigen, dass die Variable keinen bestimmten Wert enthält. Danach wird der Befehl "print()" verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Der Wert ist:" zusammen mit dem Wert der Variable "value" auf dem Bildschirm angezeigt. Da der Wert von "value" None ist, wird dies entsprechend in der Nachricht angezeigt.
+In diesem Codebeispiel wird der spezielle Wert None in Python verwendet. Es wird eine Variable `value` erstellt und mit dem Wert None initialisiert. None wird verwendet, um anzuzeigen, dass die Variable keinen bestimmten Wert enthält. Danach wird der Befehl `print()` verwendet, um eine Nachricht auszugeben. In diesem Fall wird die Nachricht "Der Wert ist:" zusammen mit dem Wert der Variable `value` auf dem Bildschirm angezeigt. Da der Wert von "value" None ist, wird dies entsprechend in der Nachricht angezeigt.
 
 Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 "Der Wert ist: None"
@@ -142,9 +142,9 @@ integer_array = [2, 3, 5, 7, 11, 13, 17]
 print(integer_array[0])
 print(integer_array[2])
 `````
-In diesem Codebeispiel wird ein Array in Python verwendet. Ein Array ist eine Datenstruktur, die es uns ermöglicht, mehrere Werte in einer einzigen Variablen zu speichern. In diesem Fall wird ein Array mit ganzzahligen Werten erstellt. Das Array "integer_array" enthält die Zahlen 2, 3, 5, 7, 11, 13 und 17. Jede Zahl wird durch ein Komma getrennt und in eckige Klammern eingeschlossen.
+In diesem Codebeispiel wird ein Array in Python verwendet. Ein Array ist eine Datenstruktur, die es uns ermöglicht, mehrere Werte in einer einzigen Variablen zu speichern. In diesem Fall wird ein Array mit ganzzahligen Werten erstellt. Das Array `integer_array` enthält die Zahlen 2, 3, 5, 7, 11, 13 und 17. Jede Zahl wird durch ein Komma getrennt und in eckige Klammern eingeschlossen.
 
-Der Code verwendet den Indexoperator [], um auf die einzelnen Elemente des Arrays zuzugreifen. Der Index beginnt bei 0, sodass integer_array[0] das erste Element (2) und integer_array[2] das dritte Element (5) des Arrays zurückgibt.
+Der Code verwendet den Indexoperator `[]`, um auf die einzelnen Elemente des Arrays zuzugreifen. Der Index beginnt bei 0, sodass `integer_array[0]` das erste Element (2) und `integer_array[2]` das dritte Element (5) des Arrays zurückgibt.
 
 Die Ausgabe des Programms sieht folgendermaßen aus:
 `````
@@ -171,25 +171,25 @@ my_list = [23, "Techstarter", 3.14, True, None, None, None]
 print(my_list[0])
 print(my_list[1])
 `````
-In der Liste "my_list" sind verschiedene Elemente enthalten. Es gibt eine Zahl (23), einen Text (Techstarter), eine Dezimalzahl (3.14), einen Wahrheitswert (True) und einige None-Werte. Jedes Element wird durch ein Komma getrennt und in eckige Klammern eingeschlossen. Der Code verwendet den Indexoperator [], um auf die einzelnen Elemente der Liste zuzugreifen. Der Index beginnt bei 0, sodass my_list[0] das erste Element (23) und my_list[1] das zweite Element ("Techstarter") der Liste zurückgibt.
+In der Liste `my_list` sind verschiedene Elemente enthalten. Es gibt eine Zahl `23`, einen Text `Techstarter`, eine Dezimalzahl `3.14`, einen Wahrheitswert `True` und einige None-Werte. Jedes Element wird durch ein Komma getrennt und in eckige Klammern eingeschlossen. Der Code verwendet den Indexoperator `[]`, um auf die einzelnen Elemente der Liste zuzugreifen. Der Index beginnt bei 0, sodass `my_list[0]` das erste Element `23` und `my_list[1]` das zweite Element ("Techstarter") der Liste zurückgibt.
 
 Die Ausgabe des Programms sieht folgendermaßen aus:
 `````
 23
 Techstarter
 `````
-Das bedeutet, dass die erste Zeile "23" und die zweite Zeile "Techstarter" auf dem Bildschirm ausgibt. Der Code zeigt, wie man auf bestimmte Elemente in einer Liste zugreift, indem man den Index verwendet. Du kannst den Index ändern, um auf andere Elemente der Liste zuzugreifen, und das Programm wird den entsprechenden Wert anzeigen.
+Das bedeutet, dass die erste Zeile `23` und die zweite Zeile `Techstarter` auf dem Bildschirm ausgibt. Der Code zeigt, wie man auf bestimmte Elemente in einer Liste zugreift, indem man den Index verwendet. Du kannst den Index ändern, um auf andere Elemente der Liste zuzugreifen, und das Programm wird den entsprechenden Wert anzeigen.
 
 ## Hinzufügen eines Elements zur Liste
 
-In diesem Codebeispiel wird ein Element zu einer Liste in Python hinzugefügt. Die Liste, auf die das Element hinzugefügt wird, wird als "my_list" bezeichnet.
+In diesem Codebeispiel wird ein Element zu einer Liste in Python hinzugefügt. Die Liste, auf die das Element hinzugefügt wird, wird als `my_list` bezeichnet.
 `````
 # Hinzufügen eines Elements zur Liste
 my_list.append("Moin!")
 `````
-Der Befehl "append()" wird verwendet, um ein Element am Ende der Liste hinzuzufügen. In diesem Fall wird das Element "Moin!" zur Liste hinzugefügt.
+Der Befehl `append()` wird verwendet, um ein Element am Ende der Liste hinzuzufügen. In diesem Fall wird das Element `Moin!` zur Liste hinzugefügt.
 
-Das bedeutet, dass die Liste nach Ausführung des Codes ein zusätzliches Element enthält. Das Element "Moin!" wird am Ende der Liste platziert.
+Das bedeutet, dass die Liste nach Ausführung des Codes ein zusätzliches Element enthält. Das Element `Moin!` wird am Ende der Liste platziert.
 
 Beispiel vor der Ausführung des Codes:
 `````
@@ -199,18 +199,18 @@ Beispiel nach der Ausführung des Codes:
 `````
 [23, "Techstarter", 3.14, True, None, None, None, "Moin!"]
 `````
-Die Verwendung von "append()" ermöglicht es uns, neue Elemente zur Liste hinzuzufügen und die Liste dynamisch zu erweitern.
+Die Verwendung von `append()` ermöglicht es uns, neue Elemente zur Liste hinzuzufügen und die Liste dynamisch zu erweitern.
 
 ![Alt-Text](/img/listehinzu.png)
 
-# Entfernen des Elements aus der Liste
+## Entfernen des Elements aus der Liste
 
-In diesem Codebeispiel wird ein Element aus einer Liste in Python entfernt. Die Liste, aus der das Element entfernt wird, wird als "my_list" bezeichnet.
+In diesem Codebeispiel wird ein Element aus einer Liste in Python entfernt. Die Liste, aus der das Element entfernt wird, wird als `my_list` bezeichnet.
 `````
 # Entfernen des Elements aus der Liste
 removed_element = my_list.pop(7)
 `````
-Der Befehl "pop()" wird verwendet, um ein Element aus der Liste zu entfernen. In diesem Fall wird das Element an der Position 7 entfernt. Der Index 7 gibt an, dass das achte Element der Liste entfernt wird. Beachte, dass der Index bei 0 beginnt, also das erste Element den Index 0 hat, das zweite den Index 1 und so weiter.
+Der Befehl `pop()` wird verwendet, um ein Element aus der Liste zu entfernen. In diesem Fall wird das Element an der Position 7 entfernt. Der Index 7 gibt an, dass das achte Element der Liste entfernt wird. Beachte, dass der Index bei 0 beginnt, also das erste Element den Index 0 hat, das zweite den Index 1 und so weiter.
 
 
 Beispiel vor der Ausführung des Codes:
