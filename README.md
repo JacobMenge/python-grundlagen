@@ -1,7 +1,4 @@
 
-
-In diesem Repository findet ihr die Beispiele und Erklärungen zu grundlegenden Konzepten der Python-Programmierung aus der Veranstalltung. Jedes Beispiel ist in einer separaten Python-Datei enthalten.
-
 # Primitive Datentypen
 
 - Primitive Datentypen ermöglichen die Speicherung und Manipulation grundlegender Daten in Python.
