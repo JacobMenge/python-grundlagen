@@ -131,7 +131,9 @@ Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 - Elemente in einem Array sind in einer festen Reihenfolge angeordnet und können durch Indizes abgerufen werden
 
 Ein Array ist eine Datenstruktur, die es uns ermöglicht, eine Sammlung von Werten in einer einzigen Variable zu speichern. Stell dir das Array vor wie eine Reihe von Behältern, in denen wir verschiedene Dinge aufbewahren können.
-![Alt-Text](/)
+
+![Alt-Text](/img/array.png)
+
 Jeder Behälter im Array hat eine bestimmte Position, die wir mit einer Zahl, dem sogenannten Index, identifizieren. Der Index beginnt in den meisten Programmiersprachen bei 0. Das heißt, der erste Behälter hat den Index 0, der zweite Behälter den Index 1, der dritte den Index 2 und so weiter. Wir können Werte in die Behälter des Arrays legen, indem wir sie anhand ihres Indexes ansprechen. Wenn wir beispielsweise das Element an Position 2 des Arrays abrufen möchten, verwenden wir den Index 2. Jedes Element im Array hat also eine eindeutige Position, die wir verwenden können, um auf den entsprechenden Wert zuzugreifen.
 
 `````
@@ -154,9 +156,68 @@ Das bedeutet, dass die erste Zeile "2" und die zweite Zeile "5" auf dem Bildschi
 # Listen
 
 - [listen_bsp.py](./listen/listen_bsp.py)
-- Erstellt eine Liste mit verschiedenen Elementen, fügt ein Element hinzu und entfernt ein Element.
+- Flexible Datenstruktur für unterschiedliche Datentypen
+- Listen können verändert werden und ermöglichen das Hinzufügen, Entfernen und Ändern von Elementen
+- Elemente in einer Liste sind in einer festen Reihenfolge angeordnet und können durch Indizes abgerufen werden
 
+Eine Liste in Python ist eine Datenstruktur, mit der wir eine geordnete Sammlung von Elementen speichern können. Stelle dir die Liste wie eine Einkaufsliste vor, auf der du verschiedene Dinge notierst. In Python können wir unterschiedliche Arten von Elementen in einer Liste speichern, wie zum Beispiel Zahlen, Texte, Wahrheitswerte und vieles mehr. Listen sind im Gegensatz zu Arrays sehr flexibel, da wir Elemente hinzufügen und entfernen können.
+
+![Alt-Text](/img/liste.png)
+
+Jedes Element in der Liste hat eine bestimmte Position, die wir mit Hilfe des Index identifizieren. Der Index beginnt in Python bei 0, was bedeutet, dass das erste Element den Index 0 hat, das zweite den Index 1, das dritte den Index 2 und so weiter. Wir können auf die Elemente in der Liste zugreifen, indem wir den Index verwenden. Wenn wir beispielsweise das erste Element abrufen möchten, verwenden wir den Index 0. Wenn wir das zweite Element möchten, verwenden wir den Index 1 und so weiter. 
 `````
-
+# Beispiel für Liste:
+my_list = [23, "Techstarter", 3.14, True, None, None, None]
+print(my_list[0])
+print(my_list[1])
 `````
+In der Liste "my_list" sind verschiedene Elemente enthalten. Es gibt eine Zahl (23), einen Text (Techstarter), eine Dezimalzahl (3.14), einen Wahrheitswert (True) und einige None-Werte. Jedes Element wird durch ein Komma getrennt und in eckige Klammern eingeschlossen. Der Code verwendet den Indexoperator [], um auf die einzelnen Elemente der Liste zuzugreifen. Der Index beginnt bei 0, sodass my_list[0] das erste Element (23) und my_list[1] das zweite Element ("Techstarter") der Liste zurückgibt.
 
+Die Ausgabe des Programms sieht folgendermaßen aus:
+`````
+23
+Techstarter
+`````
+Das bedeutet, dass die erste Zeile "23" und die zweite Zeile "Techstarter" auf dem Bildschirm ausgibt. Der Code zeigt, wie man auf bestimmte Elemente in einer Liste zugreift, indem man den Index verwendet. Du kannst den Index ändern, um auf andere Elemente der Liste zuzugreifen, und das Programm wird den entsprechenden Wert anzeigen.
+
+## Hinzufügen eines Elements zur Liste
+
+In diesem Codebeispiel wird ein Element zu einer Liste in Python hinzugefügt. Die Liste, auf die das Element hinzugefügt wird, wird als "my_list" bezeichnet.
+`````
+# Hinzufügen eines Elements zur Liste
+my_list.append("Moin!")
+`````
+Der Befehl "append()" wird verwendet, um ein Element am Ende der Liste hinzuzufügen. In diesem Fall wird das Element "Moin!" zur Liste hinzugefügt.
+
+Das bedeutet, dass die Liste nach Ausführung des Codes ein zusätzliches Element enthält. Das Element "Moin!" wird am Ende der Liste platziert.
+
+Beispiel vor der Ausführung des Codes:
+`````
+[23, "Techstarter", 3.14, True, None, None, None]
+`````
+Beispiel nach der Ausführung des Codes:
+`````
+[23, "Techstarter", 3.14, True, None, None, None, "Moin!"]
+`````
+Die Verwendung von "append()" ermöglicht es uns, neue Elemente zur Liste hinzuzufügen und die Liste dynamisch zu erweitern.
+
+![Alt-Text](/img/listehinzu.png)
+
+# Entfernen des Elements aus der Liste
+
+In diesem Codebeispiel wird ein Element aus einer Liste in Python entfernt. Die Liste, aus der das Element entfernt wird, wird als "my_list" bezeichnet.
+`````
+# Entfernen des Elements aus der Liste
+removed_element = my_list.pop(7)
+`````
+Der Befehl "pop()" wird verwendet, um ein Element aus der Liste zu entfernen. In diesem Fall wird das Element an der Position 7 entfernt. Der Index 7 gibt an, dass das achte Element der Liste entfernt wird. Beachte, dass der Index bei 0 beginnt, also das erste Element den Index 0 hat, das zweite den Index 1 und so weiter.
+
+
+Beispiel vor der Ausführung des Codes:
+`````
+[23, "Techstarter", 3.14, True, None, None, None, "Moin!"]
+`````
+Beispiel nach der Ausführung des Codes:
+`````
+[23, "Techstarter", 3.14, True, None, None, None]
+`````
