@@ -16,7 +16,7 @@ Warum geben wir Datentypen in Python dann an, wenn wir es eigentlich gar nicht m
 
 ## Integer (int)
 
-- [integer_example.py](./integer_example.py)
+- [integer_bsp.py](./primitive-datentypen/interger_bsp.py)
 - Darstellung ganzer Zahlen ohne Dezimalstellen
 - Beispiele: -5, 0, 42
 
@@ -34,36 +34,36 @@ Das bedeutet, dass die Ausgabe des Programms folgendermaßen aussieht:
 
 ## Float (float)
 
-- [float_example.py](./float_example.py)
+- [float_bsp.py](./primitive-datentypen/float_bsp.py)
 - Der Wert von Pi ist: 3.14
 
 ## Complex (complex)
 
-- [complex_example.py](./complex_example.py)
+- [complex_bsp.py](./primitive-datentypen/complex_bsp.py)
 - Die komplexe Zahl ist: (2+3j)
 
 ## String (str)
 
-- [string_example.py](./string_example.py)
+- [string_bsp.py](./primitive-datentypen/string_bsp.py)
 - Der Name ist: John Doe
 
 ## Boolean (bool)
 
-- [boolean_example.py](./boolean_example.py)
+- [boolean_bsp.py](./primitive-datentypen/boolean_bsp.py)
 - Regnet es? True
 
 ## None
 
-- [none_example.py](./none_example.py)
+- [none_bsp.py](./primitive-datentypen/none_bsp.py)
 - Der Wert ist: None
 
 # Arrays
 
-- [array_example.py](./array_example.py)
+- [arrays_bsp.py](./arrays/arrays_bsp.py)
 - Erstellt ein Array mit Ganzzahlen und gibt das erste und dritte Element aus.
 
 # Listen
 
-- [list_example.py](./list_example.py)
+- [listen_bsp.py](./listen/listen_bsp.py)
 - Erstellt eine Liste mit verschiedenen Elementen, fügt ein Element hinzu und entfernt ein Element.
 
