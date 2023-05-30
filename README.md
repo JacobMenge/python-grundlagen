@@ -1,4 +1,19 @@
 
+
+
+<h1 align="center">
+Python Grundlagen
+</br></br>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+</p>
+</h1>
+<p align="center">
+In diesem Repository habe ich für euch die Beispiele zu den Python-Grundlagen, die in der Veranstaltung behandelt wurden, dokumentiert. Hier findet ihr eine Einführung in primitive Datentypen, Arrays und Listen. Diese grundlegenden Konzepte sind entscheidend, um in Python zu programmieren und Daten effektiv zu verarbeiten. Ich werde mich bemühen, hier alles aktuell zu halten. An sich werdet ihr hier allerdings nur code finden, den ich euch erklärt habe.</p>
+  </br>
+
+
+
 # Inhaltsverzeichnis
 
 - [Primitive Datentypen](#primitive-datentypen)
