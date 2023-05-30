@@ -1,4 +1,19 @@
 
+# Inhaltsverzeichnis
+
+- [Primitive Datentypen](#primitive-datentypen)
+  - [Integer (int)](#integer-int)
+  - [Float (float)](#float-float)
+  - [String (str)](#string-str)
+  - [Boolean (bool)](#boolean-bool)
+  - [None](#none)
+- [Arrays](#arrays)
+- [Listen](#listen)
+  - [Hinzufügen eines Elements zur Liste](#hinzufügen-eines-elements-zur-liste)
+  - [Entfernen des Elements aus der Liste](#entfernen-des-elements-aus-der-liste)
+
+
+
 # Primitive Datentypen
 
 Primitive Datentypen in Python sind grundlegende Arten von Daten, mit denen wir arbeiten können. Stell dir sie wie verschiedene Arten von Bausteinen vor, die wir verwenden, um Informationen in unseren Programmen darzustellen.
